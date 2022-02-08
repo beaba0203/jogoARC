@@ -21,42 +21,42 @@ E o senhorzinho começou a me encarar, até que…
 
 {text input for: &#39;name&#39;}
 
-&gt;[[Continuar|02]]</tw-passagedata><tw-passagedata pid="3" name="02" tags="" position="943,175" size="100,100">{embed passage: &#39;100&#39;}
+&gt;[[Continuar|02]]</tw-passagedata><tw-passagedata pid="3" name="02" tags="" position="909,166" size="100,100">{embed passage: &#39;100&#39;}
 -- Ah, sim! {name}! Parece que te conheço de algum lugar, como velhos amigos. Você quer beber alguma coisa? Prefere café ou chá?
 
 &gt;[[Café]] 
-&gt;[[Chá]]</tw-passagedata><tw-passagedata pid="4" name="Café" tags="" position="906,295" size="100,100">café:true
+&gt;[[Chá]]</tw-passagedata><tw-passagedata pid="4" name="Café" tags="" position="866,304" size="100,100">café:true
 --
 {embed passage: &#39;200&#39;}
 -- Ótima escolha, sua personalidade deve ser bem agitada, né? É estresse com o trabalho? Brincadeira! Para falar a verdade, um café é sempre uma boa pedida. Espere aqui, enquanto faço nosso café. Só não ligue para estas cartas no chão. Sempre chegam e nunca sei onde colocar. Já volto!
 Olhar as cartas? 
 
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e7f1d32230ec5ed10ee624c3e6f9788b9c999d5a/cliente/cartas.jpg&quot;&gt;
 
 &gt;[[Olhar as cartas]] 
-&gt;[[Esperar]]</tw-passagedata><tw-passagedata pid="5" name="Chá" tags="" position="1082,254" size="100,100">café:false
+&gt;[[Esperar]]</tw-passagedata><tw-passagedata pid="5" name="Chá" tags="" position="1079,164" size="100,100">café:false
 --
 {embed passage: &#39;300&#39;}
 -- Ótima escolha, você parece ser uma pessoa muito tranquila mesmo, como um chá de camomila. Afinal, um cházinho é sempre o melhor remédio! Espere aqui, enquanto faço nosso chá. Só não ligue para estas cartas no chão. Sempre chegam e nunca sei onde colocar. Já volto!
 Olhar as cartas?
 
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e7f1d32230ec5ed10ee624c3e6f9788b9c999d5a/cliente/cartas.jpg&quot;&gt;
 
 &gt;[[Olhar as cartas]] 
 &gt;[[Esperar]]
-</tw-passagedata><tw-passagedata pid="6" name="Olhar as cartas" tags="" position="1179,361" size="100,100">{embed passage: &#39;100&#39;}
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e111aebe8e03e582f16b5cfbe77f0a074d2a2900/cliente/CARTAPROF.jpg&quot;&gt;
+</tw-passagedata><tw-passagedata pid="6" name="Olhar as cartas" tags="" position="1200,299" size="100,100">{embed passage: &#39;100&#39;}
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/prof.jpg&#39;, alt: &#39;&#39;}
 
 										
-&gt;[[Continuar|Esperar]]</tw-passagedata><tw-passagedata pid="7" name="Esperar" tags="" position="1006,425" size="100,100">&lt;&lt;cacheaudio &quot;som&quot; &quot;descricao.ogg&quot;&gt;&gt;
-&lt;&lt;timed 2s&gt;&gt;&lt;&lt;audio &quot;som&quot; play&gt;&gt;&lt;&lt;/timed&gt;&gt;
+&gt;[[Continuar|Esperar]]</tw-passagedata><tw-passagedata pid="7" name="Esperar" tags="" position="1016,389" size="100,100">sound.effect.explosion.url: &#39;https://beabagames.github.io/letters-to-johnson/blob/main/cliente/assets/descricao.mp3&#39;
 --
+{sound effect: &#39;explosion&#39;}
 {embed passage: &#39;100&#39;}
 
 Johnson chega com a bebida 
 
 -- Então, {name}, o que lhe fez chegar em minha casa, nem sequer lembro de você?
+
 -- Foi a bela fachada lá fora, Sr. Johnson! Achei sua casa linda e agora vejo que é linda por dentro também.
+
 -- Bingo, eu sabia! Essa casa é tudo para mim, é a única coisa que reconheço da minha história, o resto eles roubaram, covardes, só queria dizer quem eram!
 
 &gt;[[Continuar|03]]
@@ -69,11 +69,12 @@ Uma pausa longa foi feita até ele voltar a falar:
 
 &gt;[[Sim|04]] 
 &gt;{restart link, label: &#39;Não&#39;}</tw-passagedata><tw-passagedata pid="9" name="05" tags="" position="1098,547" size="100,100">{embed passage: &#39;200&#39;}
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e111aebe8e03e582f16b5cfbe77f0a074d2a2900/cliente/CARTADAMAE.jpg&quot;&gt;
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/mae.jpg&#39;, alt: &#39;&#39;}
+
 
 &gt;[[Continuar|06]]</tw-passagedata><tw-passagedata pid="10" name="04" tags="" position="966,612" size="100,100">[if café]
 {embed passage: &#39;200&#39;}
-Agora quem assume a história sou eu, o sr. Johnson, mas você não precisa saber quem sou, na verdade sou um estranho conhecido. Para entender essa história, vais interagir comigo e com quem vos fala em áudio-chamada. Vocês não se conhecem, contudo, agora serão um só, se um não ajudar o outro, o final é o remédio para mim!
+Agora quem assume a história sou eu, mas você não precisa saber quem sou, na verdade, sou um estranho conhecido. Para entender essa história, vais interagir comigo e com quem vos fala em áudio-chamada. Vocês não se conhecem, contudo, agora serão um só! Preste atenção, se um não ajudar o outro, o final é o remédio para Johnson!
 
 &gt;[[Continuar|05]]
 
@@ -89,7 +90,7 @@ Johnson havia iniciado seu doutorado, a pressão social, psicológica, suas tare
 
 Sua tese era fundamentada na personalidade em que se pautavam os maiores líderes políticos mundiais, logo no início das pesquisas, Johnson conheceu eles.&quot;
 
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e7f1d32230ec5ed10ee624c3e6f9788b9c999d5a/cliente/MURAL.jpg&quot;&gt;
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/mural.jpg&#39;, alt: &#39;&#39;}
 
 &gt;[[Continuar|07]]</tw-passagedata><tw-passagedata pid="12" name="07" tags="" position="1352,524" size="100,100">{embed passage: &#39;100&#39;}
 &quot;Johnson, passou a se sentir um deles, os reconhecia por toda parte. Aquele que era de poucos amigos, passou a ser de muitos, contudo, eles eram restritos a esse grupo.
@@ -100,8 +101,8 @@ Com isso, queria retribuir pelo auxílio, como já tinha iniciado o livro, resol
 
 Ameaças, tentativas de sequestro, até mesmo de assassinato, eles eram estranhos, queriam dominar o mundo, mostrar sua força, entretanto, não queriam mostrar suas raízes para o mundo. Segundo eles, era perigoso e botava tudo a perder. Johnson, então, passou a viver preso em sua casa, raras as vezes era visto pelos vizinhos e nesses raros momentos eram relatados estranheza no seu jeito.
 
-&gt;[[Continuar|08]]</tw-passagedata><tw-passagedata pid="13" name="Passagem Sem Nome" tags="" position="391,264" size="100,100">{embed passage: &#39;400&#39;}
-{embed image: &#39;https://github.com/beabagames/letters-to-johnson/blob/cd0bc86d4f2caa7b192757be41e1af5589e40ffe/cliente/assets/CAPA.jpg&#39;, alt: &#39;&#39;}
+&gt;[[Continuar|08]]</tw-passagedata><tw-passagedata pid="13" name="Passagem Sem Nome" tags="" position="391,266" size="100,100">{embed passage: &#39;400&#39;}
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/main/cliente/assets/capa.jpg&#39;, alt: &#39;&#39;}
 
 &gt;[[Começo]]</tw-passagedata><tw-passagedata pid="14" name="08" tags="" position="1420,399" size="100,100">{embed passage: &#39;100&#39;}
 &quot;Aqui começo meu livro, em homenagem para aqueles que me trouxeram vida!
@@ -116,13 +117,14 @@ Originados do planeta Nibiru, com características de outra classe de animais mu
 &gt;[[Continuar|09]]
 </tw-passagedata><tw-passagedata pid="15" name="09" tags="" position="1546,402" size="100,100">[if café]
 {embed passage: &#39;200&#39;}
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e111aebe8e03e582f16b5cfbe77f0a074d2a2900/cliente/CARTADEAMELIE.jpg&quot;&gt;
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/amelie.jpg&#39;, alt: &#39;&#39;}
 
 &gt;[[Continuar|10]]
 
 [else]
 {embed passage: &#39;300&#39;}
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e111aebe8e03e582f16b5cfbe77f0a074d2a2900/cliente/CARTASPARAAMELIE.jpg&quot;&gt;
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/paraamelie.jpg&#39;, alt: &#39;&#39;}
+
 
 &gt;[[Continuar|10]]</tw-passagedata><tw-passagedata pid="16" name="10" tags="" position="1673,399" size="100,100">{embed passage: &#39;100&#39;}
 - Ok, então, vamos ao que interessa! De onde você tirou essa ideia Johnson? Como resolveu fazer isso sem nos consultar?
@@ -153,14 +155,15 @@ Essa casa virou de cabeça para baixo quando o pior aconteceu.
 
 &gt;[[Continuar|12]]</tw-passagedata><tw-passagedata pid="18" name="12" tags="" position="1931,398" size="100,100">[if café]
 {embed passage: &#39;200&#39;}
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e111aebe8e03e582f16b5cfbe77f0a074d2a2900/cliente/SOCORRO.jpg&quot;&gt;
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/socorro.jpg&#39;, alt: &#39;&#39;}
+
 
 &gt;[[Continuar|13]]
 
 [else]
 {embed passage: &#39;300&#39;}
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/leilao.jpg&#39;, alt: &#39;&#39;}
 
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e7f1d32230ec5ed10ee624c3e6f9788b9c999d5a/cliente/LEILAO.jpg&quot;&gt;
 
 &gt;[[Continuar|13]]</tw-passagedata><tw-passagedata pid="19" name="Perguntas" tags="" position="993,744" size="100,100">{embed passage: &#39;300&#39;}
 
@@ -177,13 +180,12 @@ Qual era o nome do meu professor do ensino médio mesmo?
 
 [else]
 {embed passage: &#39;300&#39;}
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/doenca.jpg&#39;, alt: &#39;&#39;}
 
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/e7f1d32230ec5ed10ee624c3e6f9788b9c999d5a/cliente/LAUDODOENCA.png&quot;&gt;
 
 &gt;[[Continuar|14]]</tw-passagedata><tw-passagedata pid="21" name="14" tags="" position="2185,487" size="100,100">[if café]
 {embed passage: &#39;200&#39;}
-
-&lt;img src=&quot;https://github.com/beabagames/letters-to-johnson/blob/54c2a8b645b6ec3ba951411451486b426463f7a0/cliente/LAUDOMORTE.png&quot;&gt;
+{embed image: &#39;https://beabagames.github.io/letters-to-johnson/blob/0829f209ed7d136380b2554fdacf0737793e5337/cliente/assets/morte.png&#39;, alt: &#39;&#39;}
 
 &gt;[[Continuar|15]]
 
@@ -211,17 +213,17 @@ Johnson sofria de um problema psicológico, qual era, segundo atestado encontrad
 &gt;[[Depressão|17]]
 &gt;[[Esquizofrenia|17]]
 &gt;[[Psicose|18]]
-&gt;[[Autismo|17]]</tw-passagedata><tw-passagedata pid="24" name="100" tags="" position="469,442" size="100,100">config.style.page.color: &quot;red-0 on red-9&quot;
+&gt;[[Autismo|17]]</tw-passagedata><tw-passagedata pid="24" name="100" tags="" position="469,442.5" size="100,100">config.style.page.color: &quot;red-0 on red-9&quot;
 config.style.page.link.font: &quot;underline&quot;
 config.style.page.link.color: &quot;yellow-0&quot;
 config.style.page.link.lineColor: &quot;red&quot;
 config.style.page.link.active.color: &quot;red-8 on red-0&quot;
---</tw-passagedata><tw-passagedata pid="25" name="200" tags="" position="582,532" size="100,100">config.style.page.color: &quot;yellow-0 on yellow-9&quot;
+--</tw-passagedata><tw-passagedata pid="25" name="200" tags="" position="582,532.5" size="100,100">config.style.page.color: &quot;yellow-0 on yellow-9&quot;
 config.style.page.link.font: &quot;underline&quot;
 config.style.page.link.color: &quot;yellow-0&quot;
 config.style.page.link.lineColor: &quot;yellow&quot;
 config.style.page.link.active.color: &quot;yellow-8 on yellow-0&quot;
---</tw-passagedata><tw-passagedata pid="26" name="300" tags="" position="698,432" size="100,100">config.style.page.color: &quot;blue-0 on blue-9&quot;
+--</tw-passagedata><tw-passagedata pid="26" name="300" tags="" position="698,432.5" size="100,100">config.style.page.color: &quot;blue-0 on blue-9&quot;
 config.style.page.link.font: &quot;underline&quot;
 config.style.page.link.color: &quot;yellow-0&quot;
 config.style.page.link.lineColor: &quot;blue&quot;
@@ -247,7 +249,7 @@ Assinale com o código octal teoria que envolve essa história:
 &gt;[[52 45 50 54 49 4C 49 41 4E 4F 43|16]]</tw-passagedata><tw-passagedata pid="31" name="19" tags="" position="1542,729" size="100,100">Parabéns, vocês formam uma dupla espetacular! Bem, vamos ver o desfecho dessa história?
 Johnson, aos dez anos, foi diagnosticado com Psicose Alucinatória Crônica, um distúrbio mental que fazia com que ele saísse, em alguns momentos, da sua realidade e fosse para outra, principalmente, na falta de seus remédios. Durante seu crescimento, enquanto estava com sua mãe, seu tratamento foi bem regrado, entretanto após a graduação, com a chegada em importantes postos de trabalho, Johnson deixou subir a sua cabeça a soberba, colocou o trabalho a frente dele e de sua saúde. Deixou seu tratamento de lado para trabalhar mais, afinal os medicamentos davam um pouco de sono. Isso, somado ao esgotamento do trabalho + pesquisa, foram o estopim para as crises que estavam a anos adormecidas. Durante as pesquisas de sua tese, Johnson viu a teoria dos Reptilianos, nada de mais, entretanto decidiu conhecer a fundo essa teoria. Tinha um de seus professores que acreditava nisso também, acabou que essa teoria conspiratória serviu de gatilho, criou amizades e laços com amigos reptilianos imaginários. Conversava com pessoas, vizinhos, pensando ser os reptilianos amigos. As crises começaram a ficar pesadas, escrevia cartas para pessoas que também não existiam, sua mãe, por exemplo, havia falecido a pouco tempo. Além disso, ele mesmo respondia suas cartas, a única verídica era de seu professor e de sua amiga Amélie, que havia escrito a algum tempo. As crises ficaram muito fortes, com medo de si mesmo, Johnson, infelizmente, suicidou-se em uma gélida noite de inverno em 1959, aos 37 anos, foi achado pelo seu vizinho, um dos únicos que ainda preocupava-se com ele. Suas crises pioraram porque perdeu seu emprego na faculdade, ficou sem rumo, com medo do que sofria, achou ser a sua única alternativa, muito triste, pois, por um ponto final em nossa vida nunca é uma solução. :(
 
-</tw-passagedata><tw-passagedata pid="32" name="400" tags="" position="349,547" size="100,100">config.style.page.color: &quot;gray-0 on gray-9&quot;
+</tw-passagedata><tw-passagedata pid="32" name="400" tags="" position="349,547.5" size="100,100">config.style.page.color: &quot;gray-0 on gray-9&quot;
 config.style.page.link.font: &quot;underline&quot;
 config.style.page.link.color: &quot;gray-0&quot;
 config.style.page.link.lineColor: &quot;gray&quot;
