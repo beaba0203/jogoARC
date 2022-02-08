@@ -1,0 +1,24 @@
+{
+  "name": "letters-to-johnson",
+  "version": "0.1.0",
+  "description": "",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beabagames/letters-to-johnson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beabagames/letters-to-johnson/issues"
+  },
+  "homepage": "https://github.com/beabagames/letters-to-johnson#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  }
+}
