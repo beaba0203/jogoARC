@@ -1,2 +1,3 @@
 # Letters to johnson
-jogo para materia de arc 2021.2
+Um jogo de suspense e investigação sobre o que aconteceu com o senhor Johnson.
+Chame um amigo para ajudar a desvendar esse mistério!
